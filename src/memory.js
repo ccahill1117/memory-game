@@ -1,3 +1,3 @@
-export function Game(name) {
+export function Card() {
   this.name = name;
 }
