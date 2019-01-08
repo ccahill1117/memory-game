@@ -24,6 +24,7 @@ Game.prototype.compare = function() {
 $(document).ready(function() {
   var game = new Game;
   $(".gameCard").click(function(event) {
+    $(this).text($(event.target).attr('alt'));
     game.pickTwo($(event.target).attr('alt'));
     if (game.picks.length == 2) {
       game.compare();

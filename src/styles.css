@@ -6,6 +6,8 @@
   background-image: url('https://i.pinimg.com/originals/38/63/b3/3863b3b0eef1d377a59adfbf3918346e.png');
   background-size: cover;
   background-repeat: no-repeat;
+  color: red;
+  font-size: 50px;
 }
 
 .frontImg1, .frontImg2 {
